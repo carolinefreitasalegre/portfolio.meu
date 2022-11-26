@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carol Freitas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <a href="#"><img src="imagem/seta-para-cima.png" alt="paracima" id="seta-volver"></a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   
+   
+   
+   
+    <header>
+
+       <img src="imagem/logo.png" alt="logo" class="logo" />
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <div class="topnav" id="myTopnav">
+        <a href=""></a>
+        <a class="lista--menu"  href="#sobremim" class="active">Sobre Mim</a>
+        <a class="lista--menu"  href="#conhecimento">Conhecimetos</a>
+        <a class="lista--menu"  href="#projetos">Projetos</a>
+        <a class="lista--menu" id="contact"href="#contate">Contate-me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+
+     
+    </header>
+    <section  class="section--um">
+
+       <div class="container">
+      <div class="perfil--inicial">
+        <p class="paragrafo">Olá, eu sou</p>
+        <h1 class="titulo">Carol Freitas</h1>
+        <h2 class="paragrafo--02"><span id="dev">Desenvolvedora</span> Front-End Jr.</h2>
+       </div>
+       <img id="programacao" class="programacao" src="imagem/programação.jpg" alt=""></div>
+        
+        </div>
+      
+  
+       
+    </div>
+   
+    </section>
+    <section  id="sobremim" class="section--dois">
+      <div class="sobre--mim">
+        <h1 class="title">Sobre mim</h1>
+        <p class="paragrafo">
+          Sou Carol, sou servidora pública municipal e, atualmente estou em
+          busca de migrar para a área de programação. Tenho conhecimento em
+          HTML, CSS, Bootstrap e no momento estou no básico de Java Script.
+        </p>
+       
+        <a id="curriculo" href="imagem/curriculo.docx" download="Acme Documentation (ver. 2.0.1).docx">Download Currículo</a>
+      </div>
+      <img class="me" src="imagem/me.jpg" alt="me" id="me" />
+    </section>
+    <section  id="conhecimento"  class="section--tres">
+      <h1 class="paragrafo">Conhecimento</h1>
+
+    <div class="skills">
+      <div class="card" id="html">
+        <img id="imghtml" src="imagem/01.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">HTML</p>
+        </div>
+      </div>
+
+      <div class="card" id="css">
+        <img id="imgcss" src="imagem/css1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">CSS</p>
+        </div>
+      </div>
+
+      <div class="card" id="js">
+        <img id="imgjs" src="imagem/javascript,.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">JavaScript</p>
+        </div>
+      </div>
+
+      <div class="card" id="js">
+        <img id="imgboot" src="imagem/bootstrap3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Bootstrap<p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    </section>
+    <section id="projetos" class="projetos">
+      <h1 class="paragrafo">
+        Projetos
+      </h1>
+      <div class="card--projetos">
+      <div class="card-pj" style="width: 18rem;">
+        <img src="imagem/landing-page01.png" style="width: 16rem;" class="card-img-top-pj" alt="...">
+        
+        <div class="card-body">
+          <a href="https://carolinefreitasalegre.github.io/landing-pageOne/"  target="_blank"><p class="card-text-pj">Landing Page de treinamento 01</p></a>
+          
+        </div>
+      </div>
+
+      <div class="card-pj" style="width: 18rem;">
+        <img src="imagem/landing-page01.png" class="card-img-top-pj" alt="..." style="width: 16rem;" >
+        <div class="card-body">
+          <a href=""  target="_blank"><p class="card-text-pj">Landing Page Salão de Manicure</p></a>
+          
+        </div>
+      </div>
+
+      <div class="card-pj" style="width: 18rem;">
+        <img src="imagem/landing-page01.png" class="card-img-top-pj" alt="..." style="width: 16rem;" >
+        <div class="card-body">
+          <a href="https://carolinefreitasalegre.github.io/landing_page/" target="_blank"><p class="card-text-pj">Landing Page de treinamento 02</p></a>
+          
+        </div>
+      </div>
+
+
+
+
+
+
+    </section>
+    <section id="contate" class="contate--me">
+      <h1 class="paragrafo"> 
+        Contate-me
+      </h1>
+
+      <div >
+        <form class="box-form"  action="https://formspree.io/f/mjvzlego"     
+        method="POST" target="_blank" name="email">
+        
+              <label for="nome" name="nome" >Nome</label>
+              <input required  class="form-nome"  type="text" name="nome" />
+          
+              <label for="email" name="email">E-mail</label>
+              <input type="email" required class="form-email" name="email"/>
+          
+              <label for="msg" name="text">Mensagem</label>
+              <textarea id="texto" required rows="5" class="texto-contato" name="text"></textarea>
+              <button id="contatoForm" class="btn-contato" type="submit" onclick="enviar()">ENVIAR</button>
+
+            </form>   
+          </div>
+          <div class="redes">
+            <a href="https://www.linkedin.com/in/carol-freitas-978925239/"><img src="imagem/linkedin.svg"  id="link" class="redes" alt=""></a>
+            <a href="https://github.com/carolinefreitasalegre"><img src="imagem/github.svg"  id="git" class="redes"  alt=""></a>
+            <a href="https://www.instagram.com/carolfalg_dev"><img src="imagem/instagram.svg" id="insta"  class="redes"  alt=""></a>
+          
+          <div> 
+      </form>
+    </section>
+    <footer>
+      <a href="#"><img  id="logo" src="imagem/logo.png" alt="logo" ></a>
+      
+      <p class="direitos">Todos os direito reservados.</p>
+    </footer>
+
+
+
+
+<script src="script.js"></script> 
+
+
+
+
+
+  </body>
+</html>
