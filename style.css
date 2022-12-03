@@ -45,6 +45,24 @@ header{
     
    
 }
+#name-title{
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white;
+    animation: pisca normal infinite .8s, escrever normal 3s steps(55) both;
+}
+
+@keyframes pisca{
+    100%{
+        border-right-color: transparent;
+    }
+}
+@keyframes escrever{
+    100%{
+        max-width: 40%;
+    }
+}
 .fa{
     color: var(--color03);
 }
