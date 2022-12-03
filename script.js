@@ -1,14 +1,3 @@
-
-function myFunction() {
-     var myTopnav = document.getElementById("myTopnav");
-     if (myTopnav.className === "nav-wrap") {
-         myTopnav.className += " responsive";
-     } else {
-        myTopnav.className = "nav-wrap";
-     }
- }
-   
-
 function enviar() {
    var data = new Date();
    var hora = data.getHours();
