@@ -7,30 +7,26 @@
     <title>Carol Freitas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagem/logo.png" type="image/x-icon">
+    
   </head>
   <body>
+    
     <a href="#"><img src="imagem/seta-para-cima.png" alt="paracima" id="seta-volver"></a>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
-   
-   
-   
-   
-    <header>
-
-       <img src="imagem/logo.png" alt="logo" class="logo" />
-
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-      <div class="topnav" id="myTopnav">
-        <a href=""></a>
-        <a class="lista--menu"  href="#sobremim" class="active">Sobre Mim</a>
-        <a class="lista--menu"  href="#conhecimento">Conhecimetos</a>
-        <a class="lista--menu"  href="#projetos">Projetos</a>
-        <a class="lista--menu" id="contact"href="#contate">Contate-me</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+    <header class="navbar">
+      
+       <div class="logo"><img src="imagem/logo.png" alt="logo" id="logo" /></div> 
+      <ul class="nav-links">
+      <input type="checkbox" id="checkbox_toggle">
+      <label for="checkbox_toggle" class="hamburguer">&#9776;</label>
+      
+      <div class="menu">
+        <li><a href="#sobremim">Sobre Mim</a></li>
+        <li><a href="#conhecimento">Conhecimento</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contate" id="contact">Contate-me</a></li>
+      </ul>
       </div>
 
 
@@ -121,7 +117,7 @@
       <div class="card-pj" style="width: 18rem;">
         <img src="imagem/landing-page01.png" class="card-img-top-pj" alt="..." style="width: 16rem;" >
         <div class="card-body">
-          <a href="https://carolinefreitasalegre.github.io/espa-o_J-ssicaRodrigues/"  target="_blank"><p class="card-text-pj">Landing Page Salão de Manicure</p></a>
+          <a href=""  target="_blank"><p class="card-text-pj">Landing Page Salão de Manicure</p></a>
           
         </div>
       </div>
@@ -157,7 +153,7 @@
           
               <label for="msg" name="text">Mensagem</label>
               <textarea id="texto" required rows="5" class="texto-contato" name="text"></textarea>
-              <button id="contatoForm" class="btn-contato" type="submit" onclick="enviar()">ENVIAR</button>
+              <button id="contatoForm" class="btn-contato" type="submit" onclick="enviar()">Enviar</button>
 
             </form>   
           </div>
@@ -174,15 +170,6 @@
       
       <p class="direitos">Todos os direito reservados.</p>
     </footer>
-
-
-
-
-<script src="script.js"></script> 
-
-
-
-
-
+    <script src="script.js"></script> 
   </body>
 </html>
