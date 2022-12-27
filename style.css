@@ -243,16 +243,29 @@ width: 50%;
     transform: scale(.5);
 }
 .projetos{
-    height: 100vh;
+    height: 150vh;
     background-color: var(--color01);
 }
 .card--projetos{
     display: flex;
+
+    /* novas mexiadas */
+    flex-wrap: wrap;
+    /* fim das novas mexidas */
+
+    gap: 70px;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
 }
+
+
+
+
+
+
+
 .projetos > .paragrafo{
     color: white;
     text-align: center;
