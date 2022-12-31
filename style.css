@@ -422,7 +422,9 @@ footer > p{
 
 
  @media screen and (max-width: 768px) {
-    
+    .navbar #logo{
+        width: 35%;
+    }
     .programacao{
         display: none;
     }
@@ -440,6 +442,16 @@ footer > p{
                     border-radius: 0.1px;
                         border-bottom: 2px solid var(--color03);
                 }
+
+        .sobre--mim {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+       
+        .section--tres{
+            max-height: 50vh;
+        }        
         .skills{
             display: flex;
             flex-wrap: wrap;
@@ -498,9 +510,9 @@ footer > p{
         text-align: center;
         padding: 2px;
         font-size: 0.7em;
-        background-color: rgba(255, 255, 255, 0.067);
+        background-color: rgba(129, 106, 106, 0.175);
         display: none;
-        justify-content: center;
+        justify-content: end;
         padding-bottom: 2rem;
         justify-content: space-between;
     }
@@ -511,12 +523,16 @@ footer > p{
     .hamburguer{
         display: block;
         cursor: pointer;
+        
     }
     input[type=checkbox]:checked ~ .menu{
         display: block;
     }
     #contact{
         background-color: rgba(255, 255, 255, 0.067);;
+    }
+    footer #logo{
+        width: 20%;
     }
     }
   
