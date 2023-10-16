@@ -1,0 +1,66 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "JokenPô",
+      "tec": ["HTML", "CSS", "Javascript"],
+      "desc": "Jogo",
+      "imagem": "/images/jokenpo.png",
+      "LGit": "https://github.com/carolinefreitasalegre/JokenPo",
+      "LSite": "https://carolinefreitasalegre.github.io/JokenPo/"
+    },
+    {
+      "id": 2,
+      "nome": "Tempo aqui e agora",
+      "tec": ["HTML", "CSS", "Javascript", "API Rest"],
+      "desc": "Site de previsao do tempo.",
+      "imagem": "/images/previsaotempo.png",
+      "LGit": "https://github.com/carolinefreitasalegre/tempoaquiagora ",
+      "LSite": "https://carolinefreitasalegre.github.io/tempoaquiagora/"
+    },
+    {
+      "id": 3,
+      "nome": "Force Monedas",
+      "tec": ["HTML", "CSS", "Javascript", "API Rest"],
+      "desc": "Página de conversão de moedas",
+      "imagem": "/images/forcemonedas.png",
+      "LGit": "https://github.com/carolinefreitasalegre/conversordemoeda",
+      "LSite": "https://forcemonedas.netlify.app/"
+    },
+    {
+      "id": 4,
+      "nome": "Landing Page",
+      "tec": ["ReactJs", "Styled-components", "Javascript"],
+      "desc": "Página profissional",
+      "imagem": "/images/julia.png",
+      "LGit": "https://github.com/carolinefreitasalegre/projetojulia",
+      "LSite": "https://personaljulia.vercel.app/"
+    },
+    {
+      "id": 5,
+      "nome": "Calc Plus",
+      "tec": ["ReactJs", "Styled-components", "React-router-dom", "UseContext"],
+      "desc": "Calculadora de IMC",
+      "imagem": "/images/calcmais.png",
+      "LGit": "https://github.com/carolinefreitasalegre/calc_mais",
+      "LSite": "https://calc-mais.vercel.app/"
+    },
+    {
+      "id": 6,
+      "nome": "Pizzaria Buona Pasta",
+      "tec": [
+        "ReactJs",
+        "Styled-components",
+        "React-router-dom",
+        "Axios",
+        "Bootstrap",
+        "JSON",
+        "UseContext"
+      ],
+      "desc": "Site de pizzaria",
+      "imagem": "/images/piza.png",
+      "LGit": "https://github.com/carolinefreitasalegre/buona-massa",
+      "LSite": "https://buona-pasta.vercel.app/"
+    }
+  ]
+}
