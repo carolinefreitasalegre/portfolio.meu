@@ -6,15 +6,18 @@ export const Container = styled.footer`
   height: 20vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 25rem;
-
+  justify-content: space-around;
+  gap: 5rem;
   img {
     background-color: transparent;
     width: 5em;
   }
   a {
     background-color: transparent;
+  }
+
+  @media (max-width: 550px) {
+    gap: 0;
   }
 `;
 
@@ -26,15 +29,20 @@ export const Content = styled.div`
   width: 12em;
 
   a {
-    cursor: pointer;
-    font-size: 0.8em;
-    font-weight: normal;
-    text-decoration: none;
+    z-index: 2;
+    background-color: transparent;
     color: #f6f6ea;
-    width: 100%;
+    padding: 2px 5px;
+    transition: 1s;
+
+    > svg {
+      background-color: transparent;
+      color: #f6f6ea;
+    }
 
     &:hover {
       color: #e6324b;
+      margin-left: 1em;
     }
   }
 `;

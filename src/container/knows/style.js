@@ -32,4 +32,8 @@ export const Container = styled.section`
       width: 15em;
     }
   }
+
+  @media (max-width: 390px) {
+    padding: 0 1em;
+  }
 `;

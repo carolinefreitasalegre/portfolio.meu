@@ -65,4 +65,12 @@ export const Text = styled.div`
       margin-right: 2em;
     }
   }
+
+  @media (max-width: 500px) {
+    width: 70%;
+
+    a {
+      margin: auto;
+    }
+  }
 `;

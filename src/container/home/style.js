@@ -28,18 +28,26 @@ export const Container = styled.section`
     }
   }
 
+  @media (max-width: 800px) {
+    height: 115vh;
+    flex-direction: column;
+  }
+
   @media (max-width: 514px) {
     height: 120vh;
     flex-direction: column;
+    margin-top: 1em;
+    margin-left: 2em;
 
     img {
       margin-top: -5em;
       width: 15em;
     }
   }
-  @media (max-width: 800px) {
-    height: 115vh;
-    flex-direction: column;
+
+  @media (max-width: 390px) {
+    font-size: 0.8em;
+    margin-left: 5em;
   }
 `;
 
