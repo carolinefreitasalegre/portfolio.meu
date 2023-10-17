@@ -3,7 +3,7 @@ import LOGO from "../../../public/logo.png";
 import { Container, Nav } from "./style";
 import { RiMenu3Fill } from "react-icons/ri";
 
-export default function Header({ setMenuIsVisible }) {
+export default function Header() {
   const [hasScrolled, setHasScrolled] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,8 @@ export default function Header({ setMenuIsVisible }) {
   return (
     <>
       <Container className={hasScrolled ? "with-box-shadow" : ""}>
-        <RiMenu3Fill onClick={() => setMenuIsVisible(true)} />
+        {/* <RiMenu3Fill onClick={() => setMenuIsVisible(true)}  
+        />*/}
         <a href="#">
           <img src={LOGO} alt="" />
         </a>
