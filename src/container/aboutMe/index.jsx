@@ -5,6 +5,7 @@ import Home from "../header/index";
 import { Container, Text } from "./style";
 
 export default function SobreMim() {
+  const pdfDown = '/CV-PDF.pdf'
   return (
     <>
       <Container id="sobremim">
@@ -36,10 +37,7 @@ export default function SobreMim() {
           <a
             id="curriculo"
             class="heartbeat"
-            href="imagem/CV-PDF.pdf"
-            Acme
-            Docudata-animation="left"
-            download="mentation (ver. 2.0.1).pdf"
+            <a href={pdfDown} download>
           >
             Download Currículo
           </a>
