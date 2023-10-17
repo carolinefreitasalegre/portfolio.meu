@@ -35,8 +35,7 @@ export default function SobreMim() {
             Sinta-se à vontade para dar uma olhada!
           </p>
           <a
-            id="curriculo"
-            class="heartbeat"
+           
             <a href={pdfDown} download>
           >
             Download Currículo
