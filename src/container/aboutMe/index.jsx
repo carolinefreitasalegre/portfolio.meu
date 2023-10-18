@@ -3,12 +3,7 @@ import img from "../../../public/photo.png";
 import { Container, Text } from "./style";
 
 export default function SobreMim() {
-<<<<<<< HEAD
-  const filename = "cv.pdf";
-  const file = new File(["cv.pdf"], filename);
-=======
-  const pdfDown = '/CV-PDF.pdf'
->>>>>>> cc339871b71db45e72043bd5b95256b3f30024de
+  const pdfDown = "/CV-PDF.pdf";
   return (
     <>
       <Container id="sobremim">
@@ -37,14 +32,7 @@ export default function SobreMim() {
             projetos pessoais abaixo... <br />
             Sinta-se à vontade para dar uma olhada!
           </p>
-<<<<<<< HEAD
-          <a download={filename} href={URL.createObjectURL(file)}>
-=======
-          <a
-           
-            <a href={pdfDown} download>
-          >
->>>>>>> cc339871b71db45e72043bd5b95256b3f30024de
+          <a href={pdfDown} download>
             Download Currículo
           </a>
         </Text>
