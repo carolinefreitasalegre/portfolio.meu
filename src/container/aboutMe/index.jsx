@@ -1,11 +1,9 @@
 import React from "react";
 import img from "../../../public/photo.png";
-import Header from "../header/index";
-import Home from "../header/index";
 import { Container, Text } from "./style";
 
 export default function SobreMim() {
-  const pdfDown = '/CV-PDF.pdf'
+  const pdfDown = "/CV-PDF.pdf";
   return (
     <>
       <Container id="sobremim">
@@ -34,10 +32,7 @@ export default function SobreMim() {
             projetos pessoais abaixo... <br />
             Sinta-se à vontade para dar uma olhada!
           </p>
-          <a
-           
-            <a href={pdfDown} download>
-          >
+          <a href={pdfDown} download>
             Download Currículo
           </a>
         </Text>

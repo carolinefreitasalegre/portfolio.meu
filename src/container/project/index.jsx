@@ -41,6 +41,7 @@ export default function Projetos() {
             data-aos-duration="1000"
           >
             <CardMedia
+              style={{ margin: 8 }}
               sx={{ height: 210 }}
               image={item.imagem}
               title="green iguana"
