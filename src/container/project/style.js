@@ -10,11 +10,10 @@ export const Container = styled.section`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
   flex-wrap: wrap;
 
   .card {
-    background-color: yellow;
+    background-color: #f6f6ea;
     width: 100%;
     flex-wrap: wrap;
     height: 100%;

@@ -1,10 +1,10 @@
 import React from "react";
 import img from "../../../public/photo.png";
-import Header from "../header/index";
-import Home from "../header/index";
 import { Container, Text } from "./style";
 
 export default function SobreMim() {
+  const filename = "cv.pdf";
+  const file = new File(["cv.pdf"], filename);
   return (
     <>
       <Container id="sobremim">
@@ -33,14 +33,7 @@ export default function SobreMim() {
             projetos pessoais abaixo... <br />
             Sinta-se à vontade para dar uma olhada!
           </p>
-          <a
-            id="curriculo"
-            class="heartbeat"
-            href="imagem/CV-PDF.pdf"
-            Acme
-            Docudata-animation="left"
-            download="mentation (ver. 2.0.1).pdf"
-          >
+          <a download={filename} href={URL.createObjectURL(file)}>
             Download Currículo
           </a>
         </Text>
