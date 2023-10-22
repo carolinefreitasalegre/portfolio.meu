@@ -31,7 +31,7 @@ export default function SobreMim() {
           <p>
             Atualmente, sou servidora pública em transição de carreira para a
             área de programação. Com 31 anos de idade, sou apaixonada por
-            tecnologia e possuo conhecimentos em HTML, CSS, Bootstrap,
+            tecnologia e possuo conhecimentos em HTML, CSS, Bootstrap
             JavaScript, React e Next JS. Além disso, sou uma entusiasta da
             aprendizagem autodidata e estou sempre disposta a aprimorar cada vez
             mais minhas habilidades. Convido você a conhecer alguns dos meus
