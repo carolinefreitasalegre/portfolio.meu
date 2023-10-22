@@ -48,7 +48,7 @@ export const Text = styled.div`
     width: 90%;
   }
 
-  a {
+  button {
     text-decoration: none;
     color: #e6324b;
     border: 2px solid;
@@ -57,19 +57,19 @@ export const Text = styled.div`
     transition: all 1s;
     text-align: center;
     margin-left: 11em;
+    cursor: pointer;
 
     &:hover {
       background-color: #e6324b;
       color: #f6f6ea;
       border-radius: 4px;
-      margin-right: 2em;
     }
   }
 
   @media (max-width: 500px) {
     width: 70%;
 
-    a {
+    button {
       margin: auto;
     }
   }

@@ -33,7 +33,16 @@ export const Container = styled.header`
     opacity: 0;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 770px) {
+    img {
+      width: 3em;
+      position: absolute;
+      top: 15px;
+      left: 5em;
+    }
+    .navBig {
+      display: none;
+    }
     svg {
       opacity: 1;
       cursor: pointer;
