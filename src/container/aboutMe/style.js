@@ -16,12 +16,12 @@ export const Container = styled.section`
   }
 
   @media (max-width: 1024px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   @media (max-width: 514px) {
     height: 130vh;
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     img {
       margin-top: -5em;

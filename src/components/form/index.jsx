@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Forms, Input, TextArea, Button } from "./style";
 import { Link } from "@mui/material";
-import axios from "axios";
 
 export default function Form() {
   const [nome, setNome] = useState("");
@@ -9,22 +8,17 @@ export default function Form() {
   const [msgm, setMsgm] = useState("");
 
   function enviarEmail() {
-    axios
-      .post("/enviado", { nome, email, msgm })
-
-      .then((res) => {
-        console.log(res.data);
-        console.log(msgm);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    if (!nome || !email || !msgm) {
+      alert("Preencha os campos corretamente!");
+    } else {
+      alert("Email enviado com sucesso!");
+    }
   }
 
   return (
     <Forms
-      // action="https://formsubmit.co/freitascaroline.92@gmail.com"
-      // method="POST"
+      action="https://formsubmit.co/freitascaroline.92@gmail.com"
+      method={() => <Link to="/emailenviado" />}
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
@@ -68,7 +62,7 @@ export default function Form() {
         onClick={enviarEmail}
       >
         Enviar
-        {/* <Link to="/emailenviado">Enviar</Link> */}
+        <Link to="/emailenviado"></Link>
       </Button>
     </Forms>
   );
