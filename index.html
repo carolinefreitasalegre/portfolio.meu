@@ -1,19 +1,316 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <title>Portfólio | Caroline Freitas 👾</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caroline Freitas Alegre - Desenvolvedora Fullstack</title>
+<meta name="description" content="Portfólio de Caroline Freitas Alegre, desenvolvedora fullstack especializada em .NET, NestJS e Vue.js.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#top" class="logo">caroline<span>.dev</span></a>
+    <ul class="nav-links">
+      <li><a href="#sobre">Quem sou eu</a></li>
+      <li><a href="#stacks">Stacks</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="#contato" class="nav-cta">Entre em contato</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">Campo Grande, MS · Brasil</div>
+        <h1 class="hero-name">Caroline Freitas<br>Alegre</h1>
+        <div class="hero-role"><span id="typedRole">Desenvolvedora Fullstack</span><span class="cursor"></span></div>
+        <p class="hero-desc">Construo sistemas de ponta a ponta - de APIs robustas em .NET e NestJS a interfaces em Vue.js e Blazor. Gosto de arquitetura limpa, código organizado em camadas e produtos que resolvem problemas reais.</p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="https://github.com/carolinefreitasalegre" target="_blank" rel="noopener" class="btn btn-outline">GitHub ↗</a>
+        </div>
+      </div>
+      <div>
+        <div class="layer-stack">
+          <div class="layer layer-1">Frontend: <small>Vue.js  · Blazor · JS</small></div>
+          <div class="layer layer-2">Backend: <small> .NET ·  NestJS · C#</small></div>
+          <div class="layer layer-3">Dados: <small> PostgreSQL · SQL Server</small></div>
+          <div class="layer layer-4">DevOps: <small> Azure · CI/CD · Git</small></div>
+        </div>
+        <div class="layer-caption">passe o mouse - assim como na Clean Architecture, tudo em camadas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUEM SOU EU -->
+  <section class="about" id="sobre">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">Quem sou eu</div>
+        <h2>Curiosa por natureza, organizada por formação.</h2>
+        <p>Sou desenvolvedora fullstack com experiência no desenvolvimento de sistemas de gestão hospitalar, financeiro e logístico. Trabalho tanto na construção de APIs REST e regras de negócio quanto na criação de interfaces e dashboards que as pessoas realmente usam no dia a dia.</p>
+        <p>Já passei por times ágeis usando Scrum, participei de code reviews e configurei pipelines de CI/CD na Azure. Hoje curso Engenharia de Software na Unigran Capital e continuo aprendendo - um deploy de cada vez.</p>
+      </div>
+      <div class="about-facts reveal">
+        <div class="fact"><span>Localização</span><span>Campo Grande - MS, Brasil</span></div>
+        <div class="fact"><span>Formação</span><span>Engenharia de Software (cursando)</span></div>
+        <div class="fact"><span>Idiomas</span><span>Português · Espanhol intermediário · Inglês técnico</span></div>
+        <div class="fact"><span>Foco atual</span><span>.NET · NestJS · Vue.js</span></div>
+        <div class="fact"><span>Metodologia</span><span>Scrum · Clean Architecture</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACKS -->
+  <section class="stacks" id="stacks">
+    <div class="wrap">
+      <div class="eyebrow reveal">Minhas stacks</div>
+      <h2 class="reveal">Ferramentas que uso para transformar ideia em sistema.</h2>
+      <p class="reveal">Organizadas em camadas - assim como gosto de estruturar meus projetos.</p>
+
+      <div class="stack-grid reveal">
+        <div class="stack-card">
+          <h3><span class="dot" style="background:var(--brick)"></span>Backend</h3>
+          <div class="tag-row">
+            <span class="tag">C#</span>
+            <span class="tag">.NET / .NET 8</span>
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">NestJS</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Entity Framework Core</span>
+            <span class="tag">Prisma ORM</span>
+            <span class="tag">Dapper</span>
+          </div>
+        </div>
+        <div class="stack-card">
+          <h3><span class="dot" style="background:var(--blue)"></span>Frontend</h3>
+          <div class="tag-row">
+            <span class="tag">Vue.js</span>
+            <span class="tag">Blazor Server</span>
+            <span class="tag">Blazor WebAssembly</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
+        <div class="stack-card">
+          <h3><span class="dot" style="background:var(--amber)"></span>Banco de dados</h3>
+          <div class="tag-row">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">SQL Server</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <div class="stack-card">
+          <h3><span class="dot" style="background:#2CA860"></span>DevOps & Ferramentas</h3>
+          <div class="tag-row">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Azure DevOps</span>
+            <span class="tag">CI/CD</span>
+            <span class="tag">Swagger</span>
+            <span class="tag">Scrum</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="projects" id="projetos">
+    <div class="wrap">
+      <div class="eyebrow reveal">Meus projetos</div>
+      <h2 class="reveal">Fixados no GitHub.</h2>
+      <p class="reveal">Uma seleção dos repositórios que deixo em destaque no meu perfil - de sistemas de gestão a APIs.</p>
+
+      <div class="project-grid reveal">
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-name">StudioAgenda</span>
+            <span class="project-badge">Public</span>
+          </div>
+          <p class="project-desc">Sistema de agendamento desenvolvido em C#, pensado para organizar horários e atendimentos de forma simples.</p>
+          <div class="project-foot">
+            <span class="lang"><span class="dot" style="background:#2CA860"></span>C#</span>
+            <a class="project-link" href="https://github.com/carolinefreitasalegre/StudioAgenda" target="_blank" rel="noopener">Ver repositório ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-name">_Estacionamento</span>
+            <span class="project-badge">Public</span>
+          </div>
+          <p class="project-desc">Page Web - aplicação em C# para controle e gestão de estacionamento.</p>
+          <div class="project-foot">
+            <span class="lang"><span class="dot" style="background:#2CA860"></span>C#</span>
+            <a class="project-link" href="https://github.com/carolinefreitasalegre/_Estacionamento" target="_blank" rel="noopener">Ver repositório ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-name">Biblioteca</span>
+            <span class="project-badge">Public</span>
+          </div>
+          <p class="project-desc">Página de acesso ao site. Obs.: aguardar cerca de 5 segundos para carregar o site.</p>
+          <div class="project-foot">
+            <span class="lang"><span class="dot" style="background:var(--brick)"></span>HTML</span>
+            <a class="project-link" href="https://github.com/carolinefreitasalegre/Biblioteca" target="_blank" rel="noopener">Ver repositório ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-name">BookRegister.Api</span>
+            <span class="project-badge">Public</span>
+          </div>
+          <p class="project-desc">API REST em C# para cadastro e gerenciamento de livros.</p>
+          <div class="project-foot">
+            <span class="lang"><span class="dot" style="background:#2CA860"></span>C#</span>
+            <a class="project-link" href="https://github.com/carolinefreitasalegre/BookRegister.Api" target="_blank" rel="noopener">Ver repositório ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="more-projects reveal">
+        <p>Esses são os projetos fixados no meu perfil - tem mais coisa por lá.</p>
+        <a href="https://github.com/carolinefreitasalegre?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline" style="border-color:rgba(255,253,251,0.4); color:var(--paper);">Ver todos no GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contact" id="contato">
+    <div class="wrap">
+      <div class="eyebrow" style="justify-content:center;">Entre em contato</div>
+      <h2 class="reveal">Bora conversar sobre o próximo projeto?</h2>
+      <p class="reveal">Estou disponível para novas oportunidades e projetos freelance. Me chama por e-mail ou WhatsApp.</p>
+      <div class="contact-actions reveal">
+        <a href="mailto:freitascaroline.92@gmail.com" class="btn btn-primary">✉ Enviar e-mail</a>
+        <a href="https://wa.me/5567996692370" target="_blank" rel="noopener" class="btn btn-outline">📱 Chamar no WhatsApp</a>
+      </div>
+      <div class="contact-direct reveal">
+        <a href="mailto:freitascaroline.92@gmail.com">freitascaroline.92@gmail.com</a> &nbsp;·&nbsp; (67) 99669-2370
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        caroline.dev
+        <p>Desenvolvedora fullstack em Campo Grande, MS. .NET, NestJS e Vue.js do backend ao frontend.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <a href="#sobre">Quem sou eu</a>
+          <a href="#stacks">Minhas stacks</a>
+          <a href="#projetos">Meus projetos</a>
+          <a href="#contato">Contato</a>
+        </div>
+        <div class="footer-col">
+          <h4>Perfis</h4>
+          <a href="https://github.com/carolinefreitasalegre" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/carolinefreitasa/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <a href="mailto:freitascaroline.92@gmail.com">E-mail</a>
+          <a href="https://wa.me/5567996692370" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Caroline Freitas Alegre</span>
+      <span>Feito com HTML, CSS e JS puro</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ano dinâmico no footer
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // menu mobile
+  const menuToggle = document.getElementById('menuToggle');
+  const navLinks = document.querySelector('.nav-links');
+  const navCta = document.querySelector('.nav-cta');
+  menuToggle.addEventListener('click', () => {
+    const open = navLinks.style.display === 'flex';
+    navLinks.style.display = open ? 'none' : 'flex';
+    navCta.style.display = open ? 'none' : 'inline-flex';
+    if(!open){
+      navLinks.style.cssText = 'display:flex; position:absolute; top:100%; left:0; right:0; flex-direction:column; background:var(--paper); padding:24px 32px; gap:18px; border-bottom:1px solid var(--line);';
+      navCta.style.cssText = 'display:inline-flex; margin:0 32px 20px;';
+    }
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    if(window.innerWidth <= 880){
+      navLinks.style.display = 'none';
+      navCta.style.display = 'none';
+    }
+  }));
+
+  // efeito de digitação no papel/cargo
+  const roles = ['Desenvolvedora Fullstack', '.NET · NestJS · Vue.js', 'Backend & Frontend', 'Clean Architecture enthusiast'];
+  const roleEl = document.getElementById('typedRole');
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if(!prefersReduced){
+    let ri = 0, ci = 0, deleting = false;
+    function tick(){
+      const word = roles[ri];
+      if(!deleting){
+        ci++;
+        roleEl.textContent = word.slice(0, ci);
+        if(ci === word.length){ deleting = true; setTimeout(tick, 1400); return; }
+      } else {
+        ci--;
+        roleEl.textContent = word.slice(0, ci);
+        if(ci === 0){ deleting = false; ri = (ri + 1) % roles.length; }
+      }
+      setTimeout(tick, deleting ? 35 : 65);
+    }
+    setTimeout(tick, 900);
+  }
+
+  // reveal on scroll
+  const revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window && !prefersReduced){
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if(e.isIntersecting){
+          e.target.classList.add('in');
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(el => obs.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+</script>
+
+</body>
 </html>
