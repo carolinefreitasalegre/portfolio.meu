@@ -1,4 +1,5 @@
 <img width="1240" height="697" alt="image" src="https://github.com/user-attachments/assets/81cc65bd-6d22-4e3b-9d4a-2e30e61c8b6d" />
+
 # Caroline Freitas Alegre
 
 Desenvolvedora Fullstack com foco em Backend .NET/C#.
